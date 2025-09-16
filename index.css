@@ -1,0 +1,12 @@
+body{
+    /* background-image: url(src/imagens/jellyfish.GIF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: #77b9ff;
+}
+h1{
+    color:#ffffff;
+    background-image: url(src/imagens/jellyfish.GIF);
+    background-position: center;
+}
