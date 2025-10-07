@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela</title>
+</head>
+
+<body>
+    <main>
+        <article>
+            <hr>
+            <table>
+                <tr>
+                    <th>Nome do Produto</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Teclado Mecânico</td>
+                    <td>R$350,00</td>
+                </tr>
+            </table>
+            <hr>
+        </article>
+        <article>
+            <table border="1" cellpadding="10" cellspacing="5" align="center">
+                <tr>
+                    <td align="left"> Conteúdo alinhado à esquerda</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <table style="border: 1px solid black" ; border-spacing: 5px; margin-left: auto; margin-right: auto;>
+                <tr>
+                    <td style="padding: 10px; text-align: left;"> Conteúdo alinhado à esquerda</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h1>Legado</h1>
+            <table border="1">
+                <tr bgcolor="#CCCCCC">
+                    <th>Cabeçalho</th>
+                </tr>
+                <tr background="imagem.jpg">
+                    <td>Célula com imagem de fundo</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h1>Moderno</h1>
+            <table style="border: 1px solid black;">
+                <tr style="background-color: #2a6db1;">
+                    <th>Cabeçalho</th>
+                </tr>
+                <!-- <tr style="background-image: url('imagem.jpg');"> -->
+                <td>Célula com imagem de fundo</td>
+                </tr>
+            </table>
+        </article>
+        <hr>
+        <article>
+            <table border="1">
+                <tr>
+                    <th colspan="2">Título Abrangendo 2 Colunas</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Item que Ocupa 2 linhas</td>
+                </tr>
+                <tr>
+                    <td>Dado Normal 2</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <table>
+                <tr>
+                    <th colspan="2">Celso</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">R$500,00</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">R$200,00</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <form>
+                <label for="texto_usuario">Escreva um texto:</label>
+                <br>
+                <input type="text" id="texto_usuario">
+            </form>
+        </article>
+        <article>
+            <form>
+                <label for="texto_usuario">Escreva um texto:</label>
+                <br> <textarea type="text" id="msg" name="mensagem" rows="5" cols="50"> </textarea>
+            </form>
+        </article>
+        <article>
+            <form>
+                <label for="selecao">selecionar uma</label>
+                <br>
+                <input type="radio" id="selecao"> <label for="selecao">essa é a um</label>
+                <br>
+                <input type="checkbox" id="selecaomulti"> <label for="selecaomulti" id="selecaomulti"> aqui dá pra
+                    selecionar uma</label>
+                <br>
+                <input type="checkbox" id="selecaomulti"> <label for="selecaomulti" id="selecaomulti"> aqui dá pra
+                    selecionar outra</label>
+            </form>
+        </article>
+        <article>
+            <!--ou ent-->
+            <form>
+                <input type="radio" name="pergunta1" id="A" value="HTML">
+                <label for "A">
+                    HTML
+                </label>
+                <br>
+                <input type="radio" name="pergunta1" id="A" value="CSS">
+                <label for "A">
+                    CSS
+                </label>
+            </form>
+        </article>
+        <hr>
+        <article>
+            <form>
+                <input type="checkbox" name="pergunta3" value="CSS" <label>
+                CSS
+                </label>
+            </form>
+        </article>
+        <hr>
+        <article>
+            <form>
+                <label for="Estado">Selecione um Estado:</label>
+                <select name="Estado" id="Estado">
+                    <option value=" ">Selecione</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+            </form>
+        </article>
+        <hr>
+        <article>
+            <form>
+                <button type="">
+                    Cadastrar
+                </button>
+            </form>
+        </article>
+        <hr>
+        <article>
+            <form>
+                <input type="radio" name="pergunta1" id="A" value="HTML">
+                <label for "A">
+                    HTML
+                </label>
+                <br>
+                <input type="radio" name="pergunta1" id="A" value="CSS">
+                <label for "A">
+                    CSS
+                </label>
+                <br>
+                <button type="submit">
+                    Finalizar
+                </button>
+                <button type="reset">
+                    Limpar
+                </button>
+            </form>
+        </article>
+        <hr>
+        <article>
+            <form action="">
+                <label for="nome"
+                <label for="data_nascimento">Data de Nascimento</label>
+                <input type="date" name="data_nascimento" id="data_nascimento">
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
