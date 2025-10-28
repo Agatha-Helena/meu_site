@@ -1,0 +1,60 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap'); */
+p, h1, ul{
+    font-family: 'UnifrakturMaguntia';
+}
+
+h3 {
+    font-family: 'Linefont';
+}
+
+.classe_link{
+    font-family: "Linefont";
+    font-size: 2rem;
+}
+
+.classe_link:link {
+    color: rgb(0, 255, 51);
+}
+
+.classe_link:visited {
+    color: maroon;
+}
+
+.classe_link:hover {
+    color: rgb(255, 0, 140);
+}
+
+.classe_link:active {
+    color:dimgray
+}
+
+article {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center img{
+    max-width: 500px;
+    max-height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(171, 171, 171);
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+ul li {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(0, 255, 51);
+}
+
