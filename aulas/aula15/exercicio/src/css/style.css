@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.caixa {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 15px;
+    display: inline-block;
+}
+
+.menu_principal {
+    list-style: none;
+    background-color: rgb(59, 59, 59);
+}
+
+.menu_principal li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu_principal li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.menu_principal li a:hover {
+    background-color: #555;
+}
+
+.menu_principal ul ul {
+    display: none;
+}
+
+.menu_principal li:hover > ul {
+    display: block;
+}
