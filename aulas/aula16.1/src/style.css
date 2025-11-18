@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ativa o flexbox */
+
+#flex-basico {
+    display: flex;
+}
+
+/* inverte, deixa em coluna ou linha ou tra do inverso */
+#flex-direction {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+/* espalha os itens deixando com o espaço entre eles igualmente distribuidos, horizontal */
+
+#flex-justify {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* vertical */
+
+#flex-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#flex-wrap .item {
+    width: 150px;
+    margin: 5px;
+}
